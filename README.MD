@@ -14,14 +14,15 @@
 
 ### git commands
 
- git branch -a (all)
-
+    git branch -a (all)
+    git pull <remote> <local>
     -u (implies to commit all the uncommited )
 
     git checkout -b develop master (creates master/develop <filename> )
 
 
 initialising
+LOCAL:
 
     git init
 
@@ -30,8 +31,11 @@ initialising
     git status
     git commit -m "<commit message>"
     git remote add origin https://github.com/itsangewthing/projectname.git
-    git push -u origin main 
-    git pull <remote> <local>
+    
+    <!-- creates master branch here. -->
+    git push -u origin master
+    git checkout -b develop master
+    git push -a origin develop
 
    
 
