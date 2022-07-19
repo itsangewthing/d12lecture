@@ -14,6 +14,15 @@
 
 ### git commands
 
+ git branch -a (all)
+
+    -u (implies to commit all the uncommited )
+
+    git checkout -b develop master (creates master/develop <filename> )
+
+
+initialising
+
     git init
 
 
@@ -24,11 +33,7 @@
     git push -u origin main 
     git pull <remote> <local>
 
-    git branch -a (all)
-
-    -u (implies to commit all the uncommited )
-
-    git checkout -b develop master (creates master/develop <filename> )
+   
 
     deploy to heroku from master branch ALWAYS
     1. git branch
